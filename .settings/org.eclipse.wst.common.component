@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="activiti-app">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="activiti-app-conf-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-app-conf/activiti-app-conf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="editor-image-generator-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/editor-image-generator/editor-image-generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-image-generator-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-image-generator/activiti-image-generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-app-logic-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-app-logic/activiti-app-logic">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-process-validation-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-process-validation/activiti-process-validation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-xml-converter-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-xml-converter/activiti-dmn-xml-converter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-json-converter-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-json-converter/activiti-dmn-json-converter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-app-rest-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-app-rest/activiti-app-rest">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="content-storage-api-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/content-storage-api/content-storage-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="content-storage-fs-6.0.0-boot2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/content-storage-fs/content-storage-fs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-engine-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-engine/activiti-engine">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-api-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-api/activiti-dmn-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-form-api-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-form-api/activiti-form-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-spring-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-spring/activiti-spring">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-rest-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-rest/activiti-rest">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-common-rest-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-common-rest/activiti-common-rest">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-bpmn-model-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-bpmn-model/activiti-bpmn-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-bpmn-converter-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-bpmn-converter/activiti-bpmn-converter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-json-converter-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-json-converter/activiti-json-converter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-bpmn-layout-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-bpmn-layout/activiti-bpmn-layout">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-form-engine-configurator-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-form-engine-configurator/activiti-form-engine-configurator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-form-engine-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-form-engine/activiti-form-engine">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-form-model-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-form-model/activiti-form-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-form-json-converter-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-form-json-converter/activiti-form-json-converter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-engine-configurator-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-engine-configurator/activiti-dmn-engine-configurator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-engine-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-engine/activiti-dmn-engine">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activiti-dmn-model-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activiti-dmn-model/activiti-dmn-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="activiti-app"/>
+        <property name="java-output-path" value="/activiti-app/target/classes"/>
+    </wb-module>
+</project-modules>
